@@ -143,6 +143,9 @@ MAX_VIRTUAL_DISPLAY_DIMENSION := 2048
 
 OVERRIDE_RS_DRIVER:= libRSDriver_adreno.so
 
+# DT2W
+TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/doubletap2wake"
+
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
 
